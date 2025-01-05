@@ -1,0 +1,44 @@
+.txtInputFld {
+    -fx-background-color: rgb(77, 77, 77,0.3);
+    -fx-text-fill:rgba(255,255,255,0.5);
+}
+
+.btnAddToDo {
+     -fx-background-color: rgb(77, 77, 77,0.6);
+     -fx-text-fill:rgba(255,255,255,0.8);
+     -fx-font-size:16px;
+}
+
+.btnToDo{
+    -fx-text-fill:white;
+    -fx-background-color: rgb(77, 77, 77,0.6);
+}
+
+.overlay{
+    -fx-background-color:rgb(38, 38, 38,0.6);
+}
+
+.btnWork{
+   -fx-background-color:rgb(179, 179, 255,0.2);
+   -fx-text-fill:#e6e6e6;
+}
+
+.btnPersonal{
+    -fx-background-color:rgb(179, 255, 179,0.2);
+    -fx-text-fill:#e6e6e6;
+}
+
+.btnUrgent{
+    -fx-background-color:rgb(255, 153, 153,0.2);
+    -fx-text-fill:#e6e6e6;
+}
+
+.btnNormal{
+    -fx-background-color:rgb(242, 242, 242,0.2);
+    -fx-text-fill:#e6e6e6;
+}
+
+.btnSignOut{
+    -fx-background-color:rgb(255, 187, 51);
+    -fx-text-fill:white;
+}
