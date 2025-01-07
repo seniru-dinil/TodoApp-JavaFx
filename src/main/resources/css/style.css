@@ -18,27 +18,34 @@
     -fx-background-color:rgb(38, 38, 38,0.6);
 }
 
-.btnWork{
-   -fx-background-color:rgb(179, 179, 255,0.2);
-   -fx-text-fill:#e6e6e6;
+.bg-addToDoForm{
+    -fx-background-color:rgb(26, 26, 26);
 }
 
-.btnPersonal{
-    -fx-background-color:rgb(179, 255, 179,0.2);
-    -fx-text-fill:#e6e6e6;
+
+.work-bg{
+    -fx-background-color:;
 }
 
-.btnUrgent{
-    -fx-background-color:rgb(255, 153, 153,0.2);
-    -fx-text-fill:#e6e6e6;
+.urgent-bg{
+   -fx-background-color:;
 }
 
-.btnNormal{
-    -fx-background-color:rgb(242, 242, 242,0.2);
-    -fx-text-fill:#e6e6e6;
+.personal-bg{
+   -fx-background-color:;
 }
 
-.btnSignOut{
-    -fx-background-color:rgb(255, 187, 51);
-    -fx-text-fill:white;
+.health-bg{
+   -fx-background-color:;
 }
+
+
+.bg-sp{
+    -fx-background-color:transparent;
+}
+
+.border-radius{
+
+}
+
+

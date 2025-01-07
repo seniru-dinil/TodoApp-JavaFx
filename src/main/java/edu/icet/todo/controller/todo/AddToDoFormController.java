@@ -46,9 +46,6 @@ public class AddToDoFormController implements Initializable {
     @FXML
     void btnAddToDoOnAction(ActionEvent event) throws SQLException {
         JFXCheckBox[] checkBox = {checkBoxHealth,checkBoxPersonal,checkBoxUrgent,checkBoxWork};
-        int id = 1;
-        String title = txtToDoTitle.getText();
-        String description = txtToDoDescription.getText();
         String type = "Personal";
         for(JFXCheckBox i:checkBox){
             if(i.isSelected()){
@@ -56,10 +53,7 @@ public class AddToDoFormController implements Initializable {
                 break;
             }
         }
-        String date = getDate();
-        TodoItem todoItem = new TodoItem(id, title, description, type, date);
-        System.out.println(todoItem);
-        boolean isAdded = AddToDoController.getInstance().addToDo(todoItem);
+        boolean isAdded = ToDoController.getInstance().addToDoItem(new TodoItem(1, txtToDoTitle.getText(), txtToDoDescription.getText(), type, getDate()));
         if (isAdded){
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Information Dialog");
