@@ -8,6 +8,6 @@
 
 <AnchorPane xmlns="http://javafx.com/javafx"
             xmlns:fx="http://javafx.com/fxml"
-            fx:controller="controller.NewToDoFormController"
+            fx:controller="edu.icet.todo.controller.todo.NewToDoFormController"
             prefHeight="446.0" prefWidth="688.0">
 </AnchorPane>
